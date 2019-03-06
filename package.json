@@ -1,0 +1,28 @@
+{
+    "title": "1ITF uitdaging 2",
+    "name": "1ITF_uitdaging_2",
+    "version": "1.0.0",
+    "description": "A stylish portfolio HTML template built with Bootstrap.",
+    "keywords": [
+        "1ITF",
+        "sass",
+        "html",
+        "responsive",
+        "theme",
+        "template"
+    ],
+    "homepage": "https://startbootstrap.com/template-overviews/stylish-portfolio",
+    "license": "MIT",
+    "author": "Start Bootstrap",
+    "contributors": [
+        "David Miller (http://davidmiller.io/)"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/BlackrockDigital/startbootstrap-stylish-portfolio.git"
+    },
+    "devDependencies": {
+        "browser-sync": "^2.26.3",
+        "gulp": "^4.0.0"
+    }
+}
