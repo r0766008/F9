@@ -1,2 +1,12 @@
-/* in stylish-portfolio.min.css wijzig je NIETS */
-/* schrijf in dit bestand je eigen stijlregels om opmaak aan te passen */
+.current {
+    font-weight: 900;
+}
+
+#slidingLine {
+    position: absolute;
+    top: 0;
+    right: 15px;
+    width: 3px;
+    padding: 0 !important;
+    background-color: #1abc9c;
+}
