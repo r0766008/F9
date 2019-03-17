@@ -35,3 +35,18 @@ $(document).ready(function () {
 
     slidingLine();
 });
+
+$(window).scroll(function () {
+    var windscroll = $(window).scrollTop();
+    $('.scroll-test').each(function (index) {
+        if (windscroll >= $(this).offset().top - 100) {
+            $('.current').removeClass('current');
+            $('#menu_item' + index).addClass('current');
+        }
+    });
+    var $slidingLine = $("#slidingLine");
+    $slidingLine.stop().animate({
+        top: $(".current").position().top,
+        height: $(".current").outerHeight()
+    });
+});
