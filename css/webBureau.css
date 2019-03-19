@@ -49,3 +49,34 @@
 #sidebar-wrapper{
     background-color: #272937 !important;
 }
+
+/* Cards */
+.card-custom-img {
+  height: 200px;
+  min-height: 200px;
+  background-size: cover;
+  border-color: inherit;
+}
+
+.card-custom-img::after {
+  position: absolute;
+  content: '';
+  top: 150px;
+  left: 0;
+  border-style: solid;
+  border-top-width: 50px;
+  border-left-width: calc(700px - 5vw);
+  border-top-color: transparent;
+  border-right-color: transparent;
+  border-bottom-color: transparent;
+  border-left-color: inherit;
+}
+
+.card-custom-avatar img {
+  border-radius: 50%;
+  position: absolute;
+  top: 50px;
+  left: 1.25rem;
+  width: 150px;
+  height: 150px;
+}
