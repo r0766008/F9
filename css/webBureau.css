@@ -1,3 +1,10 @@
+/*
+    Color scheme:
+    #B49BA8 -> (Not used yet)
+    #872130 -> Primary
+    #AE856C -> Secondary
+    #272937 -> Darker
+*/
 .current {
     font-weight: 900;
 }
@@ -9,4 +16,20 @@
     width: 3px;
     padding: 0 !important;
     background-color: #1abc9c;
+}
+
+.nounderline {
+    text-decoration: none !important;
+}
+
+.color-scheme-primary {
+    background: #872130;
+}
+
+.color-scheme-secondary {
+    background: #AE856C;
+}
+
+.color-scheme-darker {
+    background: #272937;
 }

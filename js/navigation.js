@@ -38,7 +38,7 @@ $(document).ready(function () {
 
 $(window).scroll(function () {
     var windscroll = $(window).scrollTop();
-    $('.scroll-test').each(function (index) {
+    $('.scroll-nav').each(function (index) {
         if (windscroll >= $(this).offset().top - 100) {
             $('.current').removeClass('current');
             $('#menu_item' + index).addClass('current');
