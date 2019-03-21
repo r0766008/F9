@@ -1,10 +1,11 @@
 /*
-    Color scheme:
-    #B49BA8 -> (Not used yet)
-    #872130 -> Primary
-    #AE856C -> Secondary
-    #272937 -> Darker
+Color scheme:
+#B49BA8 -> (Not used yet)
+#872130 -> Primary
+#AE856C -> Secondary
+#272937 -> Darker
 */
+
 .current {
     font-weight: 900;
 }
@@ -46,48 +47,40 @@
     color: #272937;
 }
 
-#sidebar-wrapper{
+#sidebar-wrapper {
     background-color: #272937 !important;
 }
 
 /* Cards */
 .card-custom-img {
-  height: 200px;
-  min-height: 200px;
-  background-size: cover;
-  border-color: inherit;
+    height: 200px;
+    min-height: 200px;
+    background-size: cover;
+    border-color: inherit;
 }
 
 .card-custom-img::after {
-  position: absolute;
-  content: '';
-  top: 150px;
-  left: 0;
-  border-style: solid;
-  border-top-width: 50px;
-  border-left-width: calc(700px - 5vw);
-  border-top-color: transparent;
-  border-right-color: transparent;
-  border-bottom-color: transparent;
-  border-left-color: inherit;
+    position: absolute;
+    content: '';
+    top: 150px;
+    left: 0;
+    border-style: solid;
+    border-top-width: 50px;
+    border-left-width: calc(700px - 5vw);
+    border-top-color: transparent;
+    border-right-color: transparent;
+    border-bottom-color: transparent;
+    border-left-color: inherit;
 }
 
 .card-custom-avatar img {
-  border-radius: 50%;
-  position: absolute;
-  top: 50px;
-  left: 1.25rem;
-  width: 150px;
-  height: 150px;
+    border-radius: 50%;
+    position: absolute;
+    top: 50px;
+    left: 1.25rem;
+    width: 150px;
+    height: 150px;
 }
-
-
-
-
-
-
-
-
 
 .timeline {
     position: relative;
@@ -129,20 +122,6 @@
     text-align: left;
 }
 
-.timeline > li .timeline-panel:before {
-    right: auto;
-    left: -15px;
-    border-right-width: 15px;
-    border-left-width: 0;
-}
-
-.timeline > li .timeline-panel:after {
-    right: auto;
-    left: -14px;
-    border-right-width: 14px;
-    border-left-width: 0;
-}
-
 .timeline > li .timeline-image {
     position: absolute;
     z-index: 100;
@@ -157,120 +136,26 @@
     background-color: #872130;
 }
 
-.timeline > li .timeline-image h4 {
-    font-size: 10px;
-    line-height: 14px;
-    margin-top: 12px;
-}
-
-.timeline > li.timeline-inverted > .timeline-panel {
-    float: right;
-    padding: 0 20px 0 100px;
-    text-align: left;
-}
-
-.timeline > li.timeline-inverted > .timeline-panel:before {
-    right: auto;
-    left: -15px;
-    border-right-width: 15px;
-    border-left-width: 0;
-}
-
-.timeline > li.timeline-inverted > .timeline-panel:after {
-    right: auto;
-    left: -14px;
-    border-right-width: 14px;
-    border-left-width: 0;
-}
-
-.timeline > li:last-child {
-    margin-bottom: 0;
-}
-
-.timeline .timeline-heading h4 {
-    margin-top: 0;
-    color: inherit;
-}
-
-.timeline .timeline-heading h4.subheading {
-    text-transform: none;
-}
-
-.timeline .timeline-body > ul,
-.timeline .timeline-body > p {
-    margin-bottom: 0;
-}
-
 @media (min-width: 768px) {
     .timeline:before {
         left: 50%;
     }
-    .timeline > li {
-        min-height: 90px;
-        margin-bottom: 100px;
-    }
+
     .timeline > li .timeline-panel {
         float: left;
         width: 41%;
         padding: 0 20px 20px 30px;
         text-align: right;
     }
+
     .timeline > li .timeline-image {
         left: 50%;
-        width: 90px;
-        height: 90px;
-        margin-left: -45px;
+        margin-left: -40px;
     }
-    .timeline > li .timeline-image h4 {
-        font-size: 13px;
-        line-height: 18px;
-        margin-top: 16px;
-    }
+
     .timeline > li.timeline-inverted > .timeline-panel {
         float: right;
         padding: 0 30px 20px 20px;
         text-align: left;
-    }
-}
-
-@media (min-width: 992px) {
-    .timeline > li {
-        min-height: 90px;
-    }
-    .timeline > li .timeline-panel {
-        padding: 0 20px 20px;
-    }
-    .timeline > li .timeline-image {
-        width: 90px;
-        height: 90px;
-        margin-left: -45px;
-    }
-    .timeline > li .timeline-image h4 {
-        font-size: 18px;
-        line-height: 26px;
-        margin-top: 30px;
-    }
-    .timeline > li.timeline-inverted > .timeline-panel {
-        padding: 0 20px 20px;
-    }
-}
-
-@media (min-width: 1200px) {
-    .timeline > li {
-        min-height: 90px;
-    }
-    .timeline > li .timeline-panel {
-        padding: 0 20px 20px 100px;
-    }
-    .timeline > li .timeline-image {
-        width: 90px;
-        height: 90px;
-        margin-left: -45px;
-    }
-    .timeline > li .timeline-image h4 {
-        margin-top: 40px;
-    }
-    .timeline > li.timeline-inverted > .timeline-panel {
-        padding: 0 100px 20px 20px;
     }
 }
