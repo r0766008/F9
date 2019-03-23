@@ -31,10 +31,10 @@
     <nav id="sidebar-wrapper" class="color-scheme-darker">
         <ul id="main-nav" class="sidebar-nav text-uppercase" style="font-size: 14px;">
             <li class="sidebar-brand">
-                <a class="js-scroll-trigger nounderline" href="#page-top">Codon</a>
+                <a class="js-scroll-trigger nounderline" href="http://r0766008.sinners.be/Codon">Codon</a>
             </li>
             <li id="menu_item0" class="sidebar-nav-item current">
-                <a class="js-scroll-trigger" href="#page-top">Home</a>
+                <a class="js-scroll-trigger" href="http://r0766008.sinners.be/Codon">Home</a>
             </li>
         </ul>
     </nav>
