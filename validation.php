@@ -42,17 +42,13 @@
     <!-- Header -->
     <header class="masthead d-flex color-scheme-primary">
         <div class="container my-auto text-white" style="z-index: 1;">
-            <?php if (isset($_POST["voornaam"]) && $_POST["voornaam"] != "" && isset($_POST["achternaam"]) && $_POST["achternaam"] != "") echo "<h1>Hallo, ".$_POST["voornaam"]." ".$_POST["achternaam"]."</h1>\n";
-		else echo "<h1>Hallo, John Doe</h1>\n"; ?>
+            <?php if (isset($_POST["voornaam"]) && $_POST["voornaam"] != "" && isset($_POST["achternaam"]) && $_POST["achternaam"] != "") echo "<h1>Hallo, ".$_POST["voornaam"]." ".$_POST["achternaam"]."</h1>\n"; else echo "<h1>Hallo, John Doe</h1>\n"; ?>
             <h3 class="mb-5">
-                <em><?php if (isset($_POST["email"]) && $_POST["email"] != "") echo "Je email adres is ".$_POST["email"]."\n";
-		else echo "Je hebt geen email adres doorgegeven\n"; ?></em>
+                <em><?php if (isset($_POST["email"]) && $_POST["email"] != "") echo "Je email adres is ".$_POST["email"]."\n"; else echo "Je hebt geen email adres doorgegeven\n"; ?></em>
             </h3>
             <blockquote class="blockquote">
-                <p class="mb-0"><?php if (isset($_POST["checkbox"]) && $_POST["checkbox"] == "ja") echo "Je wilt emails ontvangen op het doorgegeven email adres.\n";
-		else echo "Je wilt geen emails ontvangen.\n"; ?></p>
-                <?php if (isset($_POST["bericht"]) && $_POST["bericht"] != "") echo "<h4>Bericht</h4><p class='blockquote-footer'>".$_POST["bericht"]."</p>\n";
-		else echo "<h2>Geen bericht</h2>\n"; ?>
+                <p class="mb-0"><?php if (isset($_POST["checkbox"]) && $_POST["checkbox"] == "ja") echo "Je wilt emails ontvangen op het doorgegeven email adres.\n"; else echo "Je wilt geen emails ontvangen.\n"; ?></p>
+                <?php if (isset($_POST["bericht"]) && $_POST["bericht"] != "") echo "<h4>Bericht</h4><p class='blockquote-footer'>".$_POST["bericht"]."</p>\n"; else echo "<h2>Geen bericht</h2>\n"; ?>
             </blockquote>
         </div>
         <div class="overlay my-auto"><img src="img/programming.png" alt="Programmeer talen" class="img-fluid" style="width: 60%; position: absolute; right: -6%; top: 5%; transform: rotate(30deg);">
@@ -69,4 +65,3 @@
 </body>
 
 </html>
-

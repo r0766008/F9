@@ -24,15 +24,15 @@ Color scheme:
 }
 
 .color-scheme-primary {
-    background: #872130;
+    background-color: #872130;
 }
 
 .color-scheme-secondary {
-    background: #AE856C;
+    background-color: #AE856C;
 }
 
 .color-scheme-darker {
-    background: #272937;
+    background-color: #272937;
 }
 
 .text-color-scheme-primary {
@@ -160,7 +160,49 @@ Color scheme:
     }
 }
 
+.card {
+    border: 0px;
+    height: 350px;
+}
 
+.card-flip {
+  perspective: 1000px;
+  
+}
+
+.card-flip:hover .flip{
+    transform: rotateY(180deg)
+}
+
+.card-flip,
+.front,
+.back {
+  width: 100%;
+  min-height: 350px;
+}
+
+.flip {
+  transition: 0.6s;
+  transform-style: preserve-3d;
+  position: relative;
+}
+
+.front,
+.back {
+  backface-visibility: hidden;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.front {
+  z-index: 2;
+  transform: rotateY(0deg);
+}
+
+.back {
+  transform: rotateY(180deg);
+}
 
 
 
