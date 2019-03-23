@@ -23,18 +23,18 @@
 </head>
 
 <body id="page-top" class="scroll-nav" style="overflow-x: hidden;">
-
+    
     <!-- Navigation -->
     <a class="menu-toggle rounded" href="#">
         <i class="fas fa-bars"></i>
     </a>
-    <nav id="sidebar-wrapper">
+    <nav id="sidebar-wrapper" class="color-scheme-darker">
         <ul id="main-nav" class="sidebar-nav text-uppercase" style="font-size: 14px;">
-            <div class="sidebar-brand">
-                <a class="js-scroll-trigger nounderline" href="index.html">Codon</a>
-            </div>
+            <li class="sidebar-brand">
+                <a class="js-scroll-trigger nounderline" href="#page-top">Codon</a>
+            </li>
             <li id="menu_item0" class="sidebar-nav-item current">
-                <a class="js-scroll-trigger" href="index.html">Home</a>
+                <a class="js-scroll-trigger" href="#page-top">Home</a>
             </li>
         </ul>
     </nav>

@@ -1,8 +1,6 @@
 /*
 Color scheme:
-#B49BA8 -> (Not used yet)
 #872130 -> Primary
-#AE856C -> Secondary
 #272937 -> Darker
 */
 
@@ -13,7 +11,7 @@ Color scheme:
 #slidingLine {
     position: absolute;
     top: 0;
-    right: 15px;
+    right: 12px;
     width: 3px;
     padding: 0 !important;
     background-color: #872130;
@@ -24,34 +22,14 @@ Color scheme:
 }
 
 .color-scheme-primary {
-    background-color: #872130;
-}
-
-.color-scheme-secondary {
-    background-color: #AE856C;
+    background-color: #872130 !important;
 }
 
 .color-scheme-darker {
-    background-color: #272937;
-}
-
-.text-color-scheme-primary {
-    color: #872130;
-}
-
-.text-color-scheme-secondary {
-    color: #AE856C;
-}
-
-.text-color-scheme-darker {
-    color: #272937;
-}
-
-#sidebar-wrapper {
     background-color: #272937 !important;
 }
 
-/* Cards */
+/* Developers Cards */
 .card-custom-img {
     height: 200px;
     min-height: 200px;
@@ -82,6 +60,7 @@ Color scheme:
     height: 150px;
 }
 
+/* About Timeline */
 .timeline {
     position: relative;
     padding: 0;
@@ -160,6 +139,7 @@ Color scheme:
     }
 }
 
+/* Portfolio Cards */
 .card {
     border: 0px;
     height: 350px;

@@ -1,5 +1,5 @@
 $(document).ready(function () {
-    $("#main-nav li a").on("click", function () {
+    $("#main-nav:not(:first-child) li a").on("click", function () {
         $("#main-nav li.current").removeClass("current");
         $(this).parent().addClass("current");
     });
